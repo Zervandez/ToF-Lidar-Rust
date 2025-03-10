@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="pi@192.168.0.241:22" type="ssh/sftp" uuid="796bd07c-7b27-4082-ab2e-189bf2e9f1cc">
+        <config>
+          <option name="projectRootOnTarget" value="/home/pi/ToF-Lidar" />
+          <option name="serverName" value="pi@192.168.0.241:22 agent" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config>
+            <option name="cargoPath" value="/usr/bin/cargo" />
+            <option name="cargoVersion" value="1.85.0 (d73d2caf9 2024-12-31)" />
+            <option name="rustcPath" value="/usr/bin/rustc" />
+            <option name="rustcVersion" value="1.85.0 (4d91de4e4 2025-02-17)" />
+          </config>
+        </ContributedStateBase>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
