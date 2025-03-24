@@ -20,6 +20,16 @@
           <config />
         </ContributedStateBase>
       </target>
+      <target name="pi@192.168.2.111:22" type="ssh/sftp" uuid="b9227e91-bb7c-466e-a883-7f965b312838">
+        <config>
+          <option name="projectRootOnTarget" value="/home/pi/ToF-Lidar" />
+          <option name="serverName" value="pi@192.168.2.112:22 agent" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
     </targets>
   </component>
 </project>
